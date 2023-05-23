@@ -45,7 +45,7 @@ html, body {
   max-width: 600px;
 }
 
-.form-control {
+.form-control, .form-select {
   display: block;
   padding: 15px 15px;
   font-size: 1rem;

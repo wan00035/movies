@@ -9,13 +9,7 @@
 </head>
 <body>
   <main class="main">
-    <header class="header">
-      <h1 class="header-title">Movie Mayhem</h1>
-      <nav class="nav">
-        <a class="nav-link" href="index.php">Movies</a>
-        <a class="nav-link" href="new.php">New Movie</a>
-      </nav>
-    </header>
+    <?php require "header.php"; ?>
     <form class="form">
       <input type="search" class="form-control" name="search" placeholder="Search">
     </form>
